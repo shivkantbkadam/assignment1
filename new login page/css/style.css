@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+
+body{
+	background-color: whitesmoke;
+}
+a{
+	text-decoration: none;
+}
+a:visited, a:link, a:active{
+	color: black;
+}
+input:focus{
+	outline: none;
+}
+button:focus{
+	outline: none;
+}
+button{
+	border: none;
+}
+.box{
+border-radius: 3px;
+background: #fff;
+box-shadow: 0px 0px 6px 0px rgba(0,0,0,12);
+width:500px;
+margin:100px 385px;
+
+}
+.clear{
+	clear: both;
+}
+
+.box-header{
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color:#17a2d4;
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 34px;
+	padding: 29px 0;
+	color: #fff;
+}
+main{
+	padding: 20px 25px 0 25px;
+}
+.input-field{
+	width: 100%;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+.input-box{
+	width: 410px;
+	border-radius: 3px;
+	border: 1px solid #e8e8e8;
+	background: #f6f6f6;
+	padding: 20px 19px;
+	font-size: 16px;
+	
+}
+.login-button{
+	width: 100%;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.button{
+	border-radius:3px;
+	background-color:#17a2d4;
+	width: 450px;	
+	color: #fff;
+	font-family: lato;
+	font-size: 18px;
+	padding: 19px 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.social-buttons{
+	width: 100%;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.button-fb{
+	border-radius:3px;
+	background-color:#3b5998;
+	width: 210px;	
+	color: white;
+	padding:19px 0;
+	font-size: 18px;
+}
+
+.button-gp{
+	border-radius:3px;
+	background-color:#d34836;
+	width: 210px;	
+	color: white;
+	padding:19px 0;
+	font-size: 18px;
+}
+
+.label-div{
+	 width: 450px;	
+	 padding: 0px 25px 20px 25px;
+	 display: flex;
+	 justify-content: space-between;
+}
+
+
+
+
+.normal{
+	font-family: lato;
+	color: #000000;
+	font-size:18px;
+	font-weight: 400;
+	text-align: center;
+
+
+}
+
+
+::placeholder { 
+	font-family:lato;
+	color:#969696;
+	font-size: 18px;
+	font-weight: 400;
+	padding-left:10px;
+
+}
+
+.arrow{
+	padding-left: 30px;
+	border-left: 1px solid #fff;
+}
